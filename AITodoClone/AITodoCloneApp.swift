@@ -11,7 +11,9 @@ import SwiftData
 @main
 struct AITodoCloneApp: App {
     var body: some Scene {
-        WindowGroup {
-        }
-    }
+         WindowGroup {
+             ContentView()
+         }
+         .modelContainer(for: [TodoBoard.self, TodoList.self, TodoCard.self])
+     }
 }

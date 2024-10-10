@@ -6,6 +6,45 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5FE7A6FB2CB80F1100E9F10D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6F92CB80F1100E9F10D /* ListView.swift */; };
+		5FE7A6FC2CB80F1100E9F10D /* TodoBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6EE2CB80F1100E9F10D /* TodoBoard.swift */; };
+		5FE7A6FD2CB80F1100E9F10D /* EditListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6F82CB80F1100E9F10D /* EditListView.swift */; };
+		5FE7A6FE2CB80F1100E9F10D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6F42CB80F1100E9F10D /* CardView.swift */; };
+		5FE7A6FF2CB80F1100E9F10D /* TodoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6EF2CB80F1100E9F10D /* TodoCard.swift */; };
+		5FE7A7002CB80F1100E9F10D /* EditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6F72CB80F1100E9F10D /* EditCardView.swift */; };
+		5FE7A7012CB80F1100E9F10D /* EditBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6F62CB80F1100E9F10D /* EditBoardView.swift */; };
+		5FE7A7022CB80F1100E9F10D /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6F02CB80F1100E9F10D /* TodoList.swift */; };
+		5FE7A7032CB80F1100E9F10D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6F52CB80F1100E9F10D /* ContentView.swift */; };
+		5FE7A7042CB80F1100E9F10D /* AddListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6F22CB80F1100E9F10D /* AddListView.swift */; };
+		5FE7A7052CB80F1100E9F10D /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6F32CB80F1100E9F10D /* BoardView.swift */; };
+		5FE7A7062CB80F1100E9F10D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6F92CB80F1100E9F10D /* ListView.swift */; };
+		5FE7A7072CB80F1100E9F10D /* TodoBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6EE2CB80F1100E9F10D /* TodoBoard.swift */; };
+		5FE7A7082CB80F1100E9F10D /* EditListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6F82CB80F1100E9F10D /* EditListView.swift */; };
+		5FE7A7092CB80F1100E9F10D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6F42CB80F1100E9F10D /* CardView.swift */; };
+		5FE7A70A2CB80F1100E9F10D /* TodoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6EF2CB80F1100E9F10D /* TodoCard.swift */; };
+		5FE7A70B2CB80F1100E9F10D /* EditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6F72CB80F1100E9F10D /* EditCardView.swift */; };
+		5FE7A70C2CB80F1100E9F10D /* EditBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6F62CB80F1100E9F10D /* EditBoardView.swift */; };
+		5FE7A70D2CB80F1100E9F10D /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6F02CB80F1100E9F10D /* TodoList.swift */; };
+		5FE7A70E2CB80F1100E9F10D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6F52CB80F1100E9F10D /* ContentView.swift */; };
+		5FE7A70F2CB80F1100E9F10D /* AddListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6F22CB80F1100E9F10D /* AddListView.swift */; };
+		5FE7A7102CB80F1100E9F10D /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6F32CB80F1100E9F10D /* BoardView.swift */; };
+		5FE7A7112CB80F1100E9F10D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6F92CB80F1100E9F10D /* ListView.swift */; };
+		5FE7A7122CB80F1100E9F10D /* TodoBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6EE2CB80F1100E9F10D /* TodoBoard.swift */; };
+		5FE7A7132CB80F1100E9F10D /* EditListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6F82CB80F1100E9F10D /* EditListView.swift */; };
+		5FE7A7142CB80F1100E9F10D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6F42CB80F1100E9F10D /* CardView.swift */; };
+		5FE7A7152CB80F1100E9F10D /* TodoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6EF2CB80F1100E9F10D /* TodoCard.swift */; };
+		5FE7A7162CB80F1100E9F10D /* EditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6F72CB80F1100E9F10D /* EditCardView.swift */; };
+		5FE7A7172CB80F1100E9F10D /* EditBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6F62CB80F1100E9F10D /* EditBoardView.swift */; };
+		5FE7A7182CB80F1100E9F10D /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6F02CB80F1100E9F10D /* TodoList.swift */; };
+		5FE7A7192CB80F1100E9F10D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6F52CB80F1100E9F10D /* ContentView.swift */; };
+		5FE7A71A2CB80F1100E9F10D /* AddListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6F22CB80F1100E9F10D /* AddListView.swift */; };
+		5FE7A71B2CB80F1100E9F10D /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A6F32CB80F1100E9F10D /* BoardView.swift */; };
+		5FE7A71D2CB8111300E9F10D /* AddCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A71C2CB8111300E9F10D /* AddCardView.swift */; };
+		5FE7A71E2CB8111300E9F10D /* AddCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A71C2CB8111300E9F10D /* AddCardView.swift */; };
+		5FE7A71F2CB8111300E9F10D /* AddCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7A71C2CB8111300E9F10D /* AddCardView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5FE7A6BA2CB8071F00E9F10D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +66,18 @@
 		5FE7A6A62CB8071E00E9F10D /* AITodoClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AITodoClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE7A6B92CB8071F00E9F10D /* AITodoCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AITodoCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE7A6C32CB8071F00E9F10D /* AITodoCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AITodoCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE7A6EE2CB80F1100E9F10D /* TodoBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoBoard.swift; sourceTree = "<group>"; };
+		5FE7A6EF2CB80F1100E9F10D /* TodoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCard.swift; sourceTree = "<group>"; };
+		5FE7A6F02CB80F1100E9F10D /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		5FE7A6F22CB80F1100E9F10D /* AddListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListView.swift; sourceTree = "<group>"; };
+		5FE7A6F32CB80F1100E9F10D /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		5FE7A6F42CB80F1100E9F10D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5FE7A6F52CB80F1100E9F10D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5FE7A6F62CB80F1100E9F10D /* EditBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBoardView.swift; sourceTree = "<group>"; };
+		5FE7A6F72CB80F1100E9F10D /* EditCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCardView.swift; sourceTree = "<group>"; };
+		5FE7A6F82CB80F1100E9F10D /* EditListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditListView.swift; sourceTree = "<group>"; };
+		5FE7A6F92CB80F1100E9F10D /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		5FE7A71C2CB8111300E9F10D /* AddCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +126,8 @@
 		5FE7A69D2CB8071E00E9F10D = {
 			isa = PBXGroup;
 			children = (
+				5FE7A6F12CB80F1100E9F10D /* Models */,
+				5FE7A6FA2CB80F1100E9F10D /* Views */,
 				5FE7A6A82CB8071E00E9F10D /* AITodoClone */,
 				5FE7A6BC2CB8071F00E9F10D /* AITodoCloneTests */,
 				5FE7A6C62CB8071F00E9F10D /* AITodoCloneUITests */,
@@ -90,6 +143,32 @@
 				5FE7A6C32CB8071F00E9F10D /* AITodoCloneUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5FE7A6F12CB80F1100E9F10D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5FE7A6EE2CB80F1100E9F10D /* TodoBoard.swift */,
+				5FE7A6EF2CB80F1100E9F10D /* TodoCard.swift */,
+				5FE7A6F02CB80F1100E9F10D /* TodoList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5FE7A6FA2CB80F1100E9F10D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5FE7A71C2CB8111300E9F10D /* AddCardView.swift */,
+				5FE7A6F22CB80F1100E9F10D /* AddListView.swift */,
+				5FE7A6F32CB80F1100E9F10D /* BoardView.swift */,
+				5FE7A6F42CB80F1100E9F10D /* CardView.swift */,
+				5FE7A6F52CB80F1100E9F10D /* ContentView.swift */,
+				5FE7A6F62CB80F1100E9F10D /* EditBoardView.swift */,
+				5FE7A6F72CB80F1100E9F10D /* EditCardView.swift */,
+				5FE7A6F82CB80F1100E9F10D /* EditListView.swift */,
+				5FE7A6F92CB80F1100E9F10D /* ListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +315,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE7A7112CB80F1100E9F10D /* ListView.swift in Sources */,
+				5FE7A7122CB80F1100E9F10D /* TodoBoard.swift in Sources */,
+				5FE7A7132CB80F1100E9F10D /* EditListView.swift in Sources */,
+				5FE7A7142CB80F1100E9F10D /* CardView.swift in Sources */,
+				5FE7A7152CB80F1100E9F10D /* TodoCard.swift in Sources */,
+				5FE7A7162CB80F1100E9F10D /* EditCardView.swift in Sources */,
+				5FE7A7172CB80F1100E9F10D /* EditBoardView.swift in Sources */,
+				5FE7A71D2CB8111300E9F10D /* AddCardView.swift in Sources */,
+				5FE7A7182CB80F1100E9F10D /* TodoList.swift in Sources */,
+				5FE7A7192CB80F1100E9F10D /* ContentView.swift in Sources */,
+				5FE7A71A2CB80F1100E9F10D /* AddListView.swift in Sources */,
+				5FE7A71B2CB80F1100E9F10D /* BoardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +334,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE7A6FB2CB80F1100E9F10D /* ListView.swift in Sources */,
+				5FE7A6FC2CB80F1100E9F10D /* TodoBoard.swift in Sources */,
+				5FE7A71F2CB8111300E9F10D /* AddCardView.swift in Sources */,
+				5FE7A6FD2CB80F1100E9F10D /* EditListView.swift in Sources */,
+				5FE7A6FE2CB80F1100E9F10D /* CardView.swift in Sources */,
+				5FE7A6FF2CB80F1100E9F10D /* TodoCard.swift in Sources */,
+				5FE7A7002CB80F1100E9F10D /* EditCardView.swift in Sources */,
+				5FE7A7012CB80F1100E9F10D /* EditBoardView.swift in Sources */,
+				5FE7A7022CB80F1100E9F10D /* TodoList.swift in Sources */,
+				5FE7A7032CB80F1100E9F10D /* ContentView.swift in Sources */,
+				5FE7A7042CB80F1100E9F10D /* AddListView.swift in Sources */,
+				5FE7A7052CB80F1100E9F10D /* BoardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +353,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE7A7062CB80F1100E9F10D /* ListView.swift in Sources */,
+				5FE7A7072CB80F1100E9F10D /* TodoBoard.swift in Sources */,
+				5FE7A71E2CB8111300E9F10D /* AddCardView.swift in Sources */,
+				5FE7A7082CB80F1100E9F10D /* EditListView.swift in Sources */,
+				5FE7A7092CB80F1100E9F10D /* CardView.swift in Sources */,
+				5FE7A70A2CB80F1100E9F10D /* TodoCard.swift in Sources */,
+				5FE7A70B2CB80F1100E9F10D /* EditCardView.swift in Sources */,
+				5FE7A70C2CB80F1100E9F10D /* EditBoardView.swift in Sources */,
+				5FE7A70D2CB80F1100E9F10D /* TodoList.swift in Sources */,
+				5FE7A70E2CB80F1100E9F10D /* ContentView.swift in Sources */,
+				5FE7A70F2CB80F1100E9F10D /* AddListView.swift in Sources */,
+				5FE7A7102CB80F1100E9F10D /* BoardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
