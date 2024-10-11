@@ -23,6 +23,8 @@ Now merge the requiements with this screenshot to detail the correct visual appe
 [Switch to Claude, copy and paset the PRD text from OpenAI]
 create a md file of this input:
 
+[copy md into requirements.md file]
+
 ---
 
 You are an expert iOS developer. Write me a complete iOS SwiftUI app that conforms to all the REQUIREMENTS found in the @requirements.md file. Ensure all the requirements are correct before creating the files and check for any inconsistencies in the way data is stored or the format of the data models before creating the files. Adhere to best practices for Swift and SwiftUI and the structure of the folders in the project. Think step by step to ensure the models and data storage work together.
