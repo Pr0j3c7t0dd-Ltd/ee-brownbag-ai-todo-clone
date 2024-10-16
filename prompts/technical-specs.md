@@ -16,10 +16,10 @@ import Foundation
 
 ### 2.1. Model Requirements
 * **Naming Conventions**: Prepend `Todo` to all model names to avoid conflicts with Apple's built-in models and SwiftUI structures.
-* **Protocols**: Conform to `ObservableObject` and `Identifiable` protocols.
+* **Protocols**: Conform to `ObservableObject` AND  `Identifiable` protocols.
 * **ID Property**: Include an `id` property of type `UUID` with a default value of `UUID()`.
 * **Attributes**: Do not use reserved names like `description` or `name` for attributes.
-* **Relationships**: Do **not** include any `@Relationship` to other models.
+* **Relationships**: DO NOT include any `@Relationship` to other models.
 * **Simplicity**: Keep models as simple as possible.
 
 ### 2.2. Example Model
@@ -83,7 +83,7 @@ struct ContentView: View {
 ```
 
 ## 6. Additional Guidelines
-* **No CoreData**: Do **not** use CoreData; use SwiftData exclusively.
+* **No CoreData**: DO NOT use CoreData; use SwiftData exclusively.
 * **No Predicate Macros**: Avoid using the Predicate macro in models.
 * **ObservedObject Usage**: If using `@ObservedObject`, ensure the models conform to `ObservableObject`.
 * **No Circular References**: Ensure there are no circular references in model relationships (though models should not have relationships).
