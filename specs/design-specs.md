@@ -1,36 +1,31 @@
-# Layout
+# Design Specification
 
-## Header Section
-- The top header bar displays a title ("Test board"). These elements suggest a user may create or categorize boards by location.
-- To the left of the title, there is an "X" icon, likely serving as a back or close button. On the right side, there are icons for settings/menu and notifications, providing quick access to secondary functions.
+## Layout
 
-## Column (List of Cards)
+### Header Section
+- The top header bar displays a title, such as "Test Board." On the left side, there is an "X" icon, which functions as a back or close button. On the right side, there are icons for settings and notifications, providing quick access to secondary functions.
 
-### List Header (To Do)
-- The "To do" header for the list is centered within a rounded rectangular container, giving it a modern and minimal look.
-- An ellipsis icon is shown on the right side of the header, suggesting the user can tap this to access additional settings for the list (e.g., renaming the list or deleting it).
+### Column (List of Cards)
+- Each column represents a "List" of task cards. The list header contains a title like "To Do," centered within a rounded rectangular container.
+- The ellipsis icon on the right of the list header indicates additional settings (e.g., renaming or deleting the list).
 
 ### Cards
-- The cards are represented by rectangular white containers with subtle shadows, helping them stand out against the blue background.
-- The three cards ("Test card", "Test card 2", "Test card 3") are stacked vertically. They all share the same minimalist design with rounded corners, and simple text labels. The cards likely support reordering by dragging or can be tapped to reveal more detailed content.
+- Each task is represented by a card, which is displayed in a white, rectangular container with subtle shadowing to stand out from the background.
+- Cards should be simple, with only a title and an optional description, as specified by the `@Model` for `Card`. Cards are ordered by their position within a list and are draggable within or between lists.
 
 ### Add Card Button
-- The "+ Add card" button below the existing cards prompts users to create a new card. It's positioned at the bottom of the list, making it the last item in the flow of interaction, consistent with other task management apps.
+- The "+ Add Card" button is positioned below the existing cards. Clicking this button triggers a SwiftUI view that allows the user to input a new card's details.
 
-# Colors
+## Colors
 
-## Background
-- The background color is a **solid medium blue** (#007AFF or similar), creating a strong contrast with the white cards.
+### Background
+- The background is a solid medium blue (#007AFF or similar). Cards have a white background with light gray text, ensuring a clean, minimalist interface.
 
-## Card and List Colors
-- The list of cards has a **white background** with **soft shadowing**, giving it a slight floating effect.
-- The cards themselves also have a **white background** with minimal shadowing and **light gray text** for the labels, creating a clean and readable interface.
+### Icons and Text
+- All icons (e.g., "X," ellipsis, settings, and notifications) are white or light gray, and text on headers and cards follows a similar color scheme for easy readability against the blue background.
 
-## Icons and Text
-- The icons (e.g., the "X" button, the ellipsis for list settings, and the notification icon) appear to be **white** or **light gray** on the blue background, making them easily noticeable without overpowering the visual hierarchy.
-- The header text ("Test board") is likely in **white** as well, maintaining a consistent visual theme for readability against the blue background.
+## Interaction Points
+- The UI is touch-friendly, designed for comfortable interaction on mobile devices. Drag-and-drop actions for cards must provide visual feedback (shadowing and color changes) to confirm that reordering or moving between lists is successful.
 
-# Interaction Points
-The overall design is touch-friendly, with enough padding around the cards and icons to allow for comfortable interaction on a mobile device. The use of icons and simplified navigation patterns aligns with a minimal, user-centered design for task management apps like Trello.
-
-This design emphasizes clarity and ease of use, with high contrast between interactive elements (cards, buttons) and the background, making it an effective interface for task management on mobile devices using SwiftUI.
+## Model-to-View Integration
+- The layout should closely align with the data models, where each `List` model has an array of `Card` models. The views update dynamically based on the models' data in SwiftUI using `@ObservedObject`. This ensures that any user actions like adding or reordering cards are immediately reflected in the UI and stored persistently via SwiftData.
