@@ -56,32 +56,42 @@ All models must utilize SwiftData for persistence. SwiftData handles data storag
 Use the `@Bindable` property wrapper in views to observe and mutate model data. This ensures that any changes to the model are automatically reflected in the UI.
 
 ```swift
-import SwiftUI
+import Foundation
 import SwiftData
 
-struct BoardView: View {
-    @Bindable var board: TodoBoard
-
-    var body: some View {
-        // View code here
+@Model class TodoBoard: Identifiable {
+    var id: UUID = UUID()
+    var boardTitle: String
+    @Relationship(deleteRule: .cascade) var lists: [TodoList] = []
+    
+    init(boardTitle: String) {
+        self.boardTitle = boardTitle
     }
 }
 
-struct ListView: View {
-    @Bindable var list: TodoList
-
-    var body: some View {
-        // View code here
+@Model class TodoList: Identifiable {
+    var id: UUID = UUID()
+    var listTitle: String
+    @Relationship(deleteRule: .cascade) var cards: [TodoCard] = []
+    @Relationship(inverse: \TodoBoard.lists) var board: TodoBoard?
+    
+    init(listTitle: String) {
+        self.listTitle = listTitle
     }
 }
 
-struct CardView: View {
-    @Bindable var card: TodoCard
-
-    var body: some View {
-        // View code here
+@Model class TodoCard: Identifiable {
+    var id: UUID = UUID()
+    var cardTitle: String
+    var cardDescription: String?
+    @Relationship(inverse: \TodoList.cards) var list: TodoList?
+    
+    init(cardTitle: String, cardDescription: String? = nil) {
+        self.cardTitle = cardTitle
+        self.cardDescription = cardDescription
     }
 }
+
 ```
 
 **Explanation:**
@@ -165,6 +175,13 @@ Ensure that relationships between models do not create strong reference cycles. 
 
 ### 6.3. Error Handling
 Implement proper error handling when performing data operations, especially during drag-and-drop interactions, to ensure a robust user experience.
+
+## Misc notes
+
+- Use the '@Query' format and not the '@ObservedObject' format per the models
+- import UniformTypeIdentifiers statement to import the UTType enum.
+- Make sure models have an init method
+- Make sure to import SwiftData
 
 ## Summary
 

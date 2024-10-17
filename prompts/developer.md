@@ -5,3 +5,5 @@ First write the model files and ensure they conform to the requirements in the @
 In all the SwiftUI Views, make sure you are using the '@Query' format and not the '@ObservedObject' format per the models
 
 Make sure you impliment ALL the features in the @product-requirements.md file and the @design-specs.md file and the @technical-specs.md file.  Think step by step to ensure the models and data storage work together. Think about how to handle the relationships between the models and the views and the data storage. Think before you code.
+
+Make sure you use the @trello-screenshot.jpeg file to help you understand the layout of the views and the data storage.
