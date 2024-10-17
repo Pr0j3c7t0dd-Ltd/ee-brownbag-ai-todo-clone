@@ -1,6 +1,6 @@
 [in ChaGPT interface, GPT 4o model, attach screenshot]
 
-You are an expert App Product Owner.  I would like you to write a detailed PRD document that details the requirements for a Trello clone iOS 18 app using SwiftUI and SwiftData for persistence. This app should allow users to manage tasks in an organized way, similar to Trello's board-based task management system. Users should be able to create, view, and manage tasks through an intuitive, visually appealing UI. Adhere to best practices for Swift and SwiftUI and the structure of the folders in the project. Do NOT write any code or pseudo code in the document.
+You are an expert App Product Owner.  I would like you to write a detailed PRD document that details the requirements for a Trello clone iOS 17 app using SwiftUI and SwiftData for persistence. This app should allow users to manage tasks in an organized way, similar to Trello's board-based task management system. Users should be able to create, view, and manage tasks through an intuitive, visually appealing UI. Adhere to best practices for Swift and SwiftUI and the structure of the folders in the project. Do NOT write any code or pseudo code in the document.
 
 use the attached image as a reference for the UI and design of the app.
 
