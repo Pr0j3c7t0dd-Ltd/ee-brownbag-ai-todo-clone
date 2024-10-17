@@ -12,6 +12,10 @@ import SwiftData
 struct AITodoCloneApp: App {
     var body: some Scene {
         WindowGroup {
+            BoardsListView()
+                .modelContainer(for: TodoBoard.self)
+                .modelContainer(for: TodoList.self)
+                .modelContainer(for: TodoCard.self)
         }
     }
 }

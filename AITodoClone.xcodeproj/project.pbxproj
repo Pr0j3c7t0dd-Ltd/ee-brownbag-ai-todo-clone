@@ -6,6 +6,36 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5F06BE732CC1987700260241 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06BE702CC1987700260241 /* CardView.swift */; };
+		5F06BE742CC1987700260241 /* TodoBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06BE672CC1987700260241 /* TodoBoard.swift */; };
+		5F06BE752CC1987700260241 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06BE6F2CC1987700260241 /* BoardView.swift */; };
+		5F06BE762CC1987700260241 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06BE712CC1987700260241 /* ListView.swift */; };
+		5F06BE772CC1987700260241 /* TodoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06BE682CC1987700260241 /* TodoCard.swift */; };
+		5F06BE782CC1987700260241 /* AddListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06BE6D2CC1987700260241 /* AddListView.swift */; };
+		5F06BE792CC1987700260241 /* CardDropDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06BE6B2CC1987700260241 /* CardDropDelegate.swift */; };
+		5F06BE7A2CC1987700260241 /* BoardsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06BE6E2CC1987700260241 /* BoardsListView.swift */; };
+		5F06BE7B2CC1987700260241 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06BE692CC1987700260241 /* TodoList.swift */; };
+		5F06BE7C2CC1987700260241 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06BE702CC1987700260241 /* CardView.swift */; };
+		5F06BE7D2CC1987700260241 /* TodoBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06BE672CC1987700260241 /* TodoBoard.swift */; };
+		5F06BE7E2CC1987700260241 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06BE6F2CC1987700260241 /* BoardView.swift */; };
+		5F06BE7F2CC1987700260241 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06BE712CC1987700260241 /* ListView.swift */; };
+		5F06BE802CC1987700260241 /* TodoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06BE682CC1987700260241 /* TodoCard.swift */; };
+		5F06BE812CC1987700260241 /* AddListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06BE6D2CC1987700260241 /* AddListView.swift */; };
+		5F06BE822CC1987700260241 /* CardDropDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06BE6B2CC1987700260241 /* CardDropDelegate.swift */; };
+		5F06BE832CC1987700260241 /* BoardsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06BE6E2CC1987700260241 /* BoardsListView.swift */; };
+		5F06BE842CC1987700260241 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06BE692CC1987700260241 /* TodoList.swift */; };
+		5F06BE852CC1987700260241 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06BE702CC1987700260241 /* CardView.swift */; };
+		5F06BE862CC1987700260241 /* TodoBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06BE672CC1987700260241 /* TodoBoard.swift */; };
+		5F06BE872CC1987700260241 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06BE6F2CC1987700260241 /* BoardView.swift */; };
+		5F06BE882CC1987700260241 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06BE712CC1987700260241 /* ListView.swift */; };
+		5F06BE892CC1987700260241 /* TodoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06BE682CC1987700260241 /* TodoCard.swift */; };
+		5F06BE8A2CC1987700260241 /* AddListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06BE6D2CC1987700260241 /* AddListView.swift */; };
+		5F06BE8B2CC1987700260241 /* CardDropDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06BE6B2CC1987700260241 /* CardDropDelegate.swift */; };
+		5F06BE8C2CC1987700260241 /* BoardsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06BE6E2CC1987700260241 /* BoardsListView.swift */; };
+		5F06BE8D2CC1987700260241 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06BE692CC1987700260241 /* TodoList.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5FE7A6BA2CB8071F00E9F10D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +54,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F06BE672CC1987700260241 /* TodoBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoBoard.swift; sourceTree = "<group>"; };
+		5F06BE682CC1987700260241 /* TodoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCard.swift; sourceTree = "<group>"; };
+		5F06BE692CC1987700260241 /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		5F06BE6B2CC1987700260241 /* CardDropDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDropDelegate.swift; sourceTree = "<group>"; };
+		5F06BE6D2CC1987700260241 /* AddListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListView.swift; sourceTree = "<group>"; };
+		5F06BE6E2CC1987700260241 /* BoardsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardsListView.swift; sourceTree = "<group>"; };
+		5F06BE6F2CC1987700260241 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		5F06BE702CC1987700260241 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5F06BE712CC1987700260241 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		5FE7A6A62CB8071E00E9F10D /* AITodoClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AITodoClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE7A6B92CB8071F00E9F10D /* AITodoCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AITodoCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE7A6C32CB8071F00E9F10D /* AITodoCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AITodoCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,9 +111,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F06BE6A2CC1987700260241 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5F06BE672CC1987700260241 /* TodoBoard.swift */,
+				5F06BE682CC1987700260241 /* TodoCard.swift */,
+				5F06BE692CC1987700260241 /* TodoList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5F06BE6C2CC1987700260241 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5F06BE6B2CC1987700260241 /* CardDropDelegate.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5F06BE722CC1987700260241 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F06BE6D2CC1987700260241 /* AddListView.swift */,
+				5F06BE6E2CC1987700260241 /* BoardsListView.swift */,
+				5F06BE6F2CC1987700260241 /* BoardView.swift */,
+				5F06BE702CC1987700260241 /* CardView.swift */,
+				5F06BE712CC1987700260241 /* ListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		5FE7A69D2CB8071E00E9F10D = {
 			isa = PBXGroup;
 			children = (
+				5F06BE6A2CC1987700260241 /* Models */,
+				5F06BE6C2CC1987700260241 /* Utilities */,
+				5F06BE722CC1987700260241 /* Views */,
 				5FE7A6A82CB8071E00E9F10D /* AITodoClone */,
 				5FE7A6BC2CB8071F00E9F10D /* AITodoCloneTests */,
 				5FE7A6C62CB8071F00E9F10D /* AITodoCloneUITests */,
@@ -236,6 +308,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F06BE852CC1987700260241 /* CardView.swift in Sources */,
+				5F06BE862CC1987700260241 /* TodoBoard.swift in Sources */,
+				5F06BE872CC1987700260241 /* BoardView.swift in Sources */,
+				5F06BE882CC1987700260241 /* ListView.swift in Sources */,
+				5F06BE892CC1987700260241 /* TodoCard.swift in Sources */,
+				5F06BE8A2CC1987700260241 /* AddListView.swift in Sources */,
+				5F06BE8B2CC1987700260241 /* CardDropDelegate.swift in Sources */,
+				5F06BE8C2CC1987700260241 /* BoardsListView.swift in Sources */,
+				5F06BE8D2CC1987700260241 /* TodoList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +324,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F06BE732CC1987700260241 /* CardView.swift in Sources */,
+				5F06BE742CC1987700260241 /* TodoBoard.swift in Sources */,
+				5F06BE752CC1987700260241 /* BoardView.swift in Sources */,
+				5F06BE762CC1987700260241 /* ListView.swift in Sources */,
+				5F06BE772CC1987700260241 /* TodoCard.swift in Sources */,
+				5F06BE782CC1987700260241 /* AddListView.swift in Sources */,
+				5F06BE792CC1987700260241 /* CardDropDelegate.swift in Sources */,
+				5F06BE7A2CC1987700260241 /* BoardsListView.swift in Sources */,
+				5F06BE7B2CC1987700260241 /* TodoList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +340,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F06BE7C2CC1987700260241 /* CardView.swift in Sources */,
+				5F06BE7D2CC1987700260241 /* TodoBoard.swift in Sources */,
+				5F06BE7E2CC1987700260241 /* BoardView.swift in Sources */,
+				5F06BE7F2CC1987700260241 /* ListView.swift in Sources */,
+				5F06BE802CC1987700260241 /* TodoCard.swift in Sources */,
+				5F06BE812CC1987700260241 /* AddListView.swift in Sources */,
+				5F06BE822CC1987700260241 /* CardDropDelegate.swift in Sources */,
+				5F06BE832CC1987700260241 /* BoardsListView.swift in Sources */,
+				5F06BE842CC1987700260241 /* TodoList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
